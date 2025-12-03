@@ -39,8 +39,8 @@
         "UpdateStageName": "Modscript Download",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/dayz-originalmanagemods.ps1",
-        "UpdateSourceArgs": "managemods.ps1",
+        "UpdateSourceData": "https://raw.githubusercontent.com/GATZGameHosting/AMPCustomTemplates/main/dayz-gatzmanagemods.ps1",
+        "UpdateSourceArgs": "gatzmanagemods.ps1",
         "UpdateSourceTarget": "{{$FullInstanceDir}}",
         "OverwriteExistingFiles": true,
         "SkipOnFailure": false
@@ -50,7 +50,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "powershell.exe",
-        "UpdateSourceArgs": "-NoProfile -ExecutionPolicy Bypass -File \"managemods.ps1\" \"{{ModDirFormat}}\"",
+        "UpdateSourceArgs": "-NoProfile -ExecutionPolicy Bypass -File \"gatzmanagemods.ps1\" \"{{ModDirFormat}}\"",
         "SkipOnFailure": true
     }
 ]
